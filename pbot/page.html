@@ -1,8 +1,46 @@
 <!DOCTYPE html>
 <head>
    <title>Stupid</title>
+   <style>
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #cc8500;
+}
+body {
+background-color: #e69500;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e69500;
+}
+.active {
+  background-color: #ffaf1a;
+}
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+</style>
 <body>
-<p>test</p>
+
+<ul>
+  <li><a href="https://tsunamiiii.github.io">Home</a></li>
+  <li><a class="active" href="https://tsunamiiii.github.io/pbot/page.html">Stupid</a></li>
+  <li><a href="https://tsunamiiii.github.io/parodys/page.html">Parodys</a></li>
+</ul>
 </body>
 </head>
 </html>

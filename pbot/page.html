@@ -14,10 +14,10 @@
     <meta name="theme-color" content="#157878">
     <img src="./pheader.png" alt="Logo" />
    <style>
-li {
+.t {
   float: left;
 }
-li a {
+.t a {
   display: block;
   color: white;
   text-align: center;
@@ -45,6 +45,34 @@ background-color: #e69500;
   position: sticky;
   top: 0;
 }
+.st a:hover {
+  background-color: #cc8500;
+}
+.sut {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e69500;
+}
+.active {
+  background-color: #ffaf1a;
+}
+.sut {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.st {
+  float: left;
+}
+.st a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
 </style>
 <body>
 
@@ -53,6 +81,10 @@ background-color: #e69500;
   <li class="t"><a class="active" href="https://tsunamiiii.github.io/pbot/page.html">Stupid</a></li>
   <li class="t"><a href="https://tsunamiiii.github.io/parodys/page.html">Parodys</a></li>
 </ul class="ut">
+ <ul class="sut">
+  <li class="st"><a href="/pickle.html">Old Page</a></li>
+</ul class="ut">
+ 
    <p><b>Stupid is dead.</b><br />Stupid was a bot i made back in 2017, under the name "WaveBot". Then it was just a basic bot, as i was just learning JavaScript. All through 2018, it gained commands and got to its peak of 88 servers. It had a LOT of downtime in the beggining as i didnt have a host yet. Towards mid 2018 the bot was moved to github and was getting hosted on Heroku. Heroku wasn't ideal for it but it worked. I got it up to 20 commands before attempting a database, where everything turned south. The database would just reset every time the bot restarted, which heroku automatically does atleast once every 24 hours. Me being the lazy person i am, decided to not find a fix. So in February of 2019, I deleted all the code and killed the bot for good.
 </body>
 </head>
